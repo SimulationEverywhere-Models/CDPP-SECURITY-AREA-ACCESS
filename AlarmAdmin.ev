@@ -1,0 +1,10 @@
+00:00:00:20 ArmReq_In 1
+00:00:00:50 AlarmPin_Ok 1
+00:00:01:10 ArmReq_In 1
+00:00:01:40 DisarmReq_In 1
+00:00:02:00 AlarmPin_Ok 0
+00:00:02:20 DisarmReq_In 1
+00:00:02:40 ArmReq_In 1
+00:00:03:10 AlarmPin_Ok 2
+00:00:03:40 ArmReq_In 1
+00:00:04:00 AlarmPin_Ok 1

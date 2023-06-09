@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> auth@Authentication </components>
+    <in> Pin_In Alarm_Req Alarm_Status2 </in>
+    <out> AlarmPin_Ok Error DoorPin_Ok </out>
+    <Link> Pin_In Pin_In@auth </Link>
+    <Link> Alarm_Req Alarm_Req@auth </Link>
+    <Link> Alarm_Status2 Alarm_Status2@auth </Link>
+    <Link> AlarmPin_Ok@auth AlarmPin_Ok </Link>
+    <Link> Error@auth Error </Link>
+    <Link> DoorPin_Ok@auth DoorPin_Ok </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

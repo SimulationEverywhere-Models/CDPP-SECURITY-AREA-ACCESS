@@ -1,0 +1,22 @@
+Date: 11/5/2008
+Name: Tania Pendergast 
+Version 1 
+
+Top model: SecureAreaAccessSystem
+Atomic models: AlarmAdmin, Authentication, Display
+Coupled model: SystemAdmin
+
+Test for AlarmAdmin
+- use AlarmAdmin.bat
+
+Test for Authentication
+- there are two tests: Authentication1.bat and Authentication2.bat
+
+Test for Display
+- use Display.bat
+
+Test for SystemAdmin
+- use SystemAdmin.bat
+
+Test for SecureAreaAccessSystem
+- use SecureAreaAccessSystem.bat

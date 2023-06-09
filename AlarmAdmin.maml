@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> adm@AlarmAdmin </components>
+    <in> ArmReq_In DisarmReq_In AlarmPin_Ok </in>
+    <out> Admin_Out Alarm_Status1 Alarm_Status2 Error Alarm_Req </out>
+    <Link> ArmReq_In ArmReq_In@adm </Link>
+    <Link> DisarmReq_In DisarmReq_In@adm </Link>
+    <Link> AlarmPin_Ok AlarmPin_Ok@adm </Link>
+    <Link> Admin_Out@adm Admin_Out </Link>
+    <Link> Alarm_Status1@adm Alarm_Status1 </Link>
+    <Link> Alarm_Status2@adm Alarm_Status2 </Link>
+    <Link> Error@adm Error </Link>
+    <Link> Alarm_Req@adm Alarm_Req </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

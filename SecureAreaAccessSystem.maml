@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> ADMIN disp@Display </components>
+    <in> Arm Disarm PIN </in>
+    <out> Msg </out>
+    <Link> Arm Arm_In@ADMIN </Link>
+    <Link> Disarm Disarm_In@ADMIN </Link>
+    <Link> PIN PIN_In@ADMIN </Link>
+    <Link> Msg_Out@disp Msg </Link>
+    <Link> Pin_Prompt@ADMIN PinPrompt_In@disp </Link>
+    <Link> AlarmStatus_Out@ADMIN AlarmStatus_In@disp </Link>
+    <Link> Error_Out@ADMIN Error_In@disp </Link>
+    <Link> DoorOk_Out@ADMIN DoorOk_In@disp </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

@@ -1,0 +1,7 @@
+00:01:00:00 PinPrompt_In 1
+00:01:30:00 AlarmStatus_In 1
+00:05:00:00 PinPrompt_In 1
+00:05:30:00 AlarmStatus_In 0
+00:08:00:00 Error_In 1
+00:10:00:00 Error_In 0
+00:15:00:00 DoorOk_In 1
